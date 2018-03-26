@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'devise', '~> 4.4', '>= 4.4.3'
 
 
 git_source(:github) do |repo_name|

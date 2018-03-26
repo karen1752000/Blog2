@@ -1,9 +1,9 @@
-<h1>Karen's Blog Post</h1>
+<h1 class="text-center"><strong>Blog Post</strong></h1>
 
 <% @posts.each do |post| %>
 	<div class="container">
 		<h3><%= post.title %></h3>
 		<p><%= post.body %></p>
 		<%= link_to "Read More", post_path(post), :class => 'btn btn-info' %>
-	</div>	
+	</div><hr>	
 <% end %>
